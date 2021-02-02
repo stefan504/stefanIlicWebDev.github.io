@@ -13,7 +13,6 @@
 }
 .potpis {
   width: 70%;
-  min-height: 60px;
   height: auto;
 }
 html {
@@ -30,7 +29,7 @@ html {
 }
 /* Nav Bar  */
 #nav-bar {
-  height: auto;
+  max-height: 130px;
 
   width: 100%;
   position: fixed;
@@ -38,6 +37,7 @@ html {
   background-color: black;
 }
 .nav-bar {
+  max-height: 110px;
   background-color: black;
   left: 0;
   top: 0;
@@ -468,6 +468,7 @@ html {
   .nav-bar .nav-list .hamburger {
     display: none;
   }
+
   .nav-bar {
     width: 80%;
   }
