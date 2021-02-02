@@ -13,7 +13,7 @@ html {
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 150px 0 100px 0;
+  padding: 150px 2% 100px 2%;
   background: rgba(0, 0, 0, 0.8);
 }
 
