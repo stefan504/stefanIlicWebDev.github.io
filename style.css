@@ -196,14 +196,15 @@ html {
   color: white;
   text-decoration: none;
   letter-spacing: 0.6rem;
-  background-color: rgba(85, 85, 85, 0.534);
+  background-color: #ff4332;
 }
 .about .about-info .about-info-button:hover {
   background-color: #ff4332;
   box-shadow: 6px 5px 16px -5px #000000;
 }
 .hero .hero-info .hero-info-button:hover {
-  background-color: #ff4332;
+  background-color: #fff;
+  color: black;
 }
 .hero .hero-img {
   height: auto;

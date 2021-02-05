@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- nav-bar  -->
@@ -36,19 +37,19 @@
 
     <!-- Hero Section  -->
     <section id="hero" class="hero container">
-      <div class="hero-info">
+      <div class="hero-info" data-aos="fade-up">
         <h1 class="hero-info-heading">I Design <br /><span class = 'red'>Your Dream</span></h1>
         <p class="hero-info-subheading">I am a web developer</p>
         <a href="portfolio.html" type="button" class="hero-info-button">Portfolio</a>
       </div>
-      <div class="hero-img">
+      <div class="hero-img" data-aos="fade-up">
         <img src="./images/1.jpg" alt="" />
       </div>
     </section>
     <!-- End Hero Section  -->
 
     <!-- About section  -->
-    <section id="about" class="about container">
+    <section id="about" class="about container" data-aos="fade-right">
       <div class="about-info">
         <h1 class="about-info-heading">About Me</h1>
         <p class="about-info-desc">
@@ -68,7 +69,7 @@
     <!-- End About section  -->
 
     <!-- Service Section  -->
-    <section id="services" class="services container">
+    <section id="services" class="services container" data-aos="fade-left">
       <div class="services-header">
         <h1 class="services-header-heading">services</h1>
         <p class="services-header-desc">
@@ -133,7 +134,7 @@
       <h1 class="hire-heading">Hire me to build your dream website</h1>
       <a href="#" type="button" class="hire-button">Hire Me !!</a>
     </section>
-<section class='contact'>
+<section class='contact' data-aos="fade-right">
 
   <h1>Contact me!</h1>
   <form class="contact-form" action="index.html" method="post">
@@ -168,5 +169,14 @@
     </footer>
     <!-- End Footer section  -->
     <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+  offset: 400, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  once: true,
+});
+  </script>
   </body>
 </html>
