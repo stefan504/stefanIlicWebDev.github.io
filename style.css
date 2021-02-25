@@ -525,7 +525,7 @@ textarea.contact-form-text {
 /* CONTACT FORM END */
 
 /* Media query for desktop and tab  */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 912px) {
   .nav-bar .nav-list .hamburger {
     display: none;
   }
